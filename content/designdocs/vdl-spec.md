@@ -5,7 +5,7 @@ toc: true
 
 This is a reference manual for VDL, the Vanadium Definition Language.  The intended audience is both end-users writing VDL files, as well as core developers implementing VDL.
 
-VDL is an interface definition language for describing Vanadium components.  It is designed to enable interoperability between implementations executing in heterogeneous environments.  E.g. it enables a frontend Android client running on a phone to communicate with a backend written in Go running on a server.  VDL is compiled into an intermediate representation that is used to generate code in each target environment.
+VDL is an interface definition language for describing Vanadium components.  It is designed to enable interoperability between implementations executing in heterogeneous environments.  E.g. it enables an Android application running on a phone to communicate with a backend written in Go running on a server.  VDL is compiled into an intermediate representation that is used to generate code in each target environment.
 
 Communication in Vanadium is based on remote procedure calls.  The main concepts in VDL map closely to concepts in general-purpose languages used to specify interfaces and communication protocols.
 

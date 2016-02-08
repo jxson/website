@@ -53,8 +53,7 @@ forms of communication.
 # VDL
 
 The Vanadium Definition Language (VDL) enables interoperability between software
-components executing in different computing environments. For example, a
-frontend Android client written in Java running on a mobile phone may wish to
+components executing in different computing environments. For example, an Android application written in Java running on a mobile phone may wish to
 communicate with a backend written in Go running in the cloud.
 
 VDL has a well-defined type system and semantics that specify the baseline

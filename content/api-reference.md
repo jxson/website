@@ -12,6 +12,5 @@ toc: true
 [v23]: https://godoc.org/v.io/v23
 [ref]: https://godoc.org/v.io/x/ref
 [lib]: https://godoc.org/v.io/x/lib
-[jsdoc]: https://jsdoc.v.io/
 [js-source]: https://github.com/vanadium/js
 [npm]: https://www.npmjs.com/package/vanadium
