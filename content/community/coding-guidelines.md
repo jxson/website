@@ -11,9 +11,11 @@ omitted, for brevity):
 
 ```
  $JIRI_ROOT
-   .manifest         # Multi-repo configuration data
+   .jiri_root        # Jiri utils and metadata
+     scripts/jiri    # Jiri command-line tool
    devtools          # Contributor tool binaries
    environment       # Platform-dependent configuration
+   manifest          # Multi-repo configuration data
    release           # Source code
      go/src/v.io/v23 # Interfaces
      go/src/v.io/x   # Implementation
@@ -31,7 +33,7 @@ omitted, for brevity):
 
 Each repository has a `README.md` file summarizing its purpose. The `devtools`
 directory isn't a repository, but rather a top-level directory where contributor
-tools are placed during installation. The `.manifest` repository contains the
+tools are placed during installation. The `manifest` repository contains the
 configuration that describes this repository arrangement.
 
 Things move around, so its best to examine your local installation for the
